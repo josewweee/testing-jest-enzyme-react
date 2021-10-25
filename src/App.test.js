@@ -5,6 +5,7 @@ import React from 'react';
 
 import App, { Todo, TodoForm, useTodos } from './App';
 
+//WE HAVE TO CONFIGURE ENZYME IN setUp.js
 // Enzyme.configure({ adaptetr: new Adapter() });
 
 describe('App', () => {
